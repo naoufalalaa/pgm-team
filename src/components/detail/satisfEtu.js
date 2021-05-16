@@ -63,9 +63,7 @@ const SatisfactionEtudiant = () => {
                 <br/><span style={{color:'white'}} id="span6"></span>
                  <hr/>
                  </div>
-                 <div>
-                     <div style={{backgroundColor:'#FFF'}} width={(data.map((item)=>{return(item.satisfactionCours_Cycle)}))*1}></div>
-                 </div>
+                 
                 </div>
         )
 }
