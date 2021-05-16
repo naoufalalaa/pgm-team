@@ -61,7 +61,6 @@ const SatisfactionETuCP = () => {
                             </div>
                         </div>
                     </div>
-                    
                     <div>
                         <div className="uk-card-transparent uk-card-body">
                             <h5>Satisfaction Cours et TD <strong>Département Mathématique informatique</strong>:</h5>
