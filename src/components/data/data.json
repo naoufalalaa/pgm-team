@@ -1,0 +1,98 @@
+[
+    {
+        "profession" : "etudiant",
+        "impact_neg" : 58,
+        "aucun_impact" : 18,
+        "impact_nega": 24
+    },
+    {
+        "profession" : "etudiant",
+        "secteur" : "rurale",
+        "impact_neg" : 48,
+        "aucun_impact" : 24,
+        "impact_positif": 29
+    },
+    {
+        "profession" : "etudiant",
+        "secteur" : "urbaine",
+        "impact_neg" : 59,
+        "aucun_impact" : 17,
+        "impact_positif": 24
+    },
+    {
+        "profession" : "etudiant",
+        "age" : "20+",
+        "impact_neg" : 54,
+        "aucun_impact" : 18,
+        "impact_positif": 28
+    },
+    {
+        "profession" : "etudiant",
+        "dep" : "math info",
+        "impact_neg" : 35,
+        "aucun_impact" : 24,
+        "impact_nega": 41
+    },
+    {
+        "profession" : "etudiant",
+        "filiere" : "cycle ing",
+        "satisfactionCours" : 5.917431193,
+        "satisfactionTD" : 4.798165138
+    },
+    {
+        "profession" : "etudiant",
+        "filiere" : "DUT",
+        "satisfactionCours" : 5.363636364,
+        "satisfactionTD" : 4.568181818
+    },
+    {
+        "profession" : "etudiant",
+        "filiere" : "Licence Pro",
+        "satisfactionCours" : 5.555555556,
+        "satisfactionTD" : 4.555555556
+    },
+    {
+        "profession" : "etudiant",
+        "outil" : "Google Meet",
+        "pourcentage" : 87
+    },
+    {
+        "profession" : "etudiant",
+        "outil" : "Zoom",
+        "pourcentage" : 3
+    },
+    {
+        "profession" : "etudiant",
+        "outil" : "Big Blue Button / Black Board Collaborate",
+        "pourcentage" : 7
+    },
+    {
+        "profession" : "etudiant",
+        "outil" : "Microsoft Teams",
+        "pourcentage" : 2
+    },
+    {
+        "profession" : "etudiant",
+        "outil" : "Microsoft Teams",
+        "pourcentage" : 2
+    },
+    {
+        "profession" : "professeur",
+        "impact_neg" : 67,
+        "aucun_impact" : 13,
+        "impact_positif": 20
+    },
+    {
+        "profession" : "professeur",
+        "filiere" :"cycle ing",
+        "impact_neg" : 43,
+        "aucun_impact" : 14,
+        "impact_positif": 43
+    },
+    {
+        "profession" : "professeur",
+        "departement" :"math info",
+        "satisfactionCours" : 6.571428571,
+        "satisfactionTD" : 4.714285714
+    }
+]

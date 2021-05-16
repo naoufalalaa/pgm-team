@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "email" : "n.alaa_etu@enset-media.ac.ma",
+        "password": "Noureddine61",
+        "name": "Naoufal",
+        "lastName": "ALAA"
+    },
+    {
+        "id":2,
+        "email" : "y.majbar_etu@enset-media.ac.ma",
+        "password": "admin",
+        "name": "Yassine",
+        "lastName": "MAJBAR"
+    },
+    {
+        "id":3,
+        "email" : "a.ait.laasri_etu@enset-media.ac.ma",
+        "password": "admin",
+        "name": "Ayman",
+        "lastName": "AIT LAASRI"
+    },
+    {
+        "id":4,
+        "email" : "h.ait.ben.yissa_etu@enset-media.ac.ma",
+        "password": "admin",
+        "name": "Hamza",
+        "lastName": "AIT BEN YISSA"
+    }
+]

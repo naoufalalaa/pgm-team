@@ -1,0 +1,91 @@
+*{
+    font-family: Nunito;
+}
+  body{
+    font-family: Nunito;
+
+    background-color: #121334;
+}
+h1,h2,h3,h4,h5,h6{
+    color: white;
+    font-family: Nunito;
+}
+.link {
+    color: white;
+    opacity: 0.5;
+    transition: all ease 1s
+}
+.link:hover{
+    opacity: 1;
+    transition: all ease 1s
+}
+.active{
+    opacity: 1;
+}
+svg{
+    opacity: 0.6;
+}
+.head{
+    position:absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.uk-navbar{
+    z-index: auto;
+    color: white;
+    font-weight: 600; 
+}
+
+.corps{
+    z-index: 1;
+}
+
+.uk-nav-primary{
+    font-size: 10pt;
+}
+p{
+    color: white;
+    opacity: 0.6;
+}
+.service{
+    background-color: #121334;
+    border-radius: 15px;
+    color:rgba(255, 255, 255, 0.514);
+    transition: all ease 1s;
+}
+.service:hover{
+    box-shadow: 0px 0px 40px -10px #58e14660;
+    transition: all ease 1s;
+    color:#59E146;
+}
+.service1{
+    background-color: #191a44;
+    border-radius: 15px;
+    color:rgba(255, 255, 255, 0.514);
+    transition: all ease 1s;
+}
+.service1:hover{
+    box-shadow: 0px 0px 40px -10px #58e14660;
+    transition: all ease 1s;
+    color:#59E146;
+}
+.inter{
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #08AEEA;
+    background-image: linear-gradient(90deg, #08AEEA 0%, #2AF598 100%);
+    color: #121334;
+    font-weight: 600;
+    font-size:medium;
+    cursor: pointer;
+}
+
+.goal{
+    transition: all ease 500ms;
+}
+.service:hover .goal{
+    width: 70px;
+    transition: all ease 500ms;
+}
