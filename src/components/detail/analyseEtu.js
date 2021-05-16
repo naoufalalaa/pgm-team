@@ -2,6 +2,7 @@ import React, { useEffect,useState } from 'react'
 import Tabletop from 'tabletop'
 import ImpactEtudiant from '../detail/impactgen'
 import SatisfactionEtudiant from '../detail/satisfEtu'
+import SatisfactionETuCP from '../detail/satisfactionCTD'
 const AnalyseEtudiant = () => {
         const [data, setData] = useState([]);
         
@@ -25,6 +26,10 @@ const AnalyseEtudiant = () => {
                 <h4 className="Ana" style={{display:'block',cursor: 'pointer'}} data-uk-toggle="target: .gen2">- Département Mathématique Informatique <small>: impact des études <span className="gen2"><i class="fas fa-angle-up"></i></span><span hidden className="gen2"><i class="fas fa-angle-down"></i></span></small></h4>
                 <div hidden className="gen2">
                     <SatisfactionEtudiant/>
+                </div>
+                <h4 className="Ana" style={{display:'block',cursor: 'pointer'}} data-uk-toggle="target: .gen4">- Satisfaction Cours TD étudiants <small><span className="gen4"><i class="fas fa-angle-up"></i></span><span hidden className="gen4"><i class="fas fa-angle-down"></i></span></small></h4>
+                <div hidden className="gen4">
+                    <SatisfactionETuCP/>
                 </div>
             </div>
         )

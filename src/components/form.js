@@ -1,8 +1,9 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Participate from './Participate'
 const Form = () => {
         
-        return (
+    useEffect( () => document.title='PGM-team — Participate')
+    return (
             <div align="center" style={{marginTop:'10%',color:'white'}}>
                 <div className="uk-width-2-3 uk-width-1-2@s">
                     <h1>Bienvenue à vous!</h1>
