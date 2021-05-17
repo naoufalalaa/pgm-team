@@ -30,6 +30,7 @@ export class Participate extends Component {
       }
     
       submitHandler = e => {
+        alert ('Vos données ont été enregistrées avec succès')
         e.preventDefault();
         console.log(this.state);
 
@@ -39,11 +40,13 @@ export class Participate extends Component {
         })
       }
       
+      
     render(){
         const { Profession,Sexe,Age,Zone,Filiere,Departement,Impact,Appareils,Satisfaction_Cours,Satisfaction_TD,Outils,outils_viso,Problems,Solutions,Comments } = this.state;
         
         return (
             <form onSubmit={this.submitHandler} className="uk-width-1-2@s uk-width-3-4">
+                <div id="valdation"></div>
                 <select onChange={this.changeHandler} name="Profession" value={Profession} className="uk-margin uk-select">
                     <option>Profession</option>
                     <option selected value="professeur">Professeur</option>
@@ -104,8 +107,6 @@ export class Participate extends Component {
                     <option value="Ordinateur personnel">Ordinateur personnel</option>
                     <option value="Smartphone">Smartphone</option>
                     <option value="Ordinateur partagé par les membres de la famille">Ordinateur partagé par les membres de la famille</option>
-                    <option value="Ordinateur partagé par les membres de la famille">Ordinateur partagé par les membres de la famille</option>
-                    <option value="">Ordinateur partagé par les membres de la famille</option>
                 </select>
                 <select onChange={this.changeHandler} value={Outils} name="Outils" className="uk-margin uk-select">
                     <option>Outils</option>
@@ -122,7 +123,7 @@ export class Participate extends Component {
                 <textarea name="Problems" onChange={this.changeHandler} value={Problems} placeholder="Vos problèmes..." className="uk-margin uk-textarea"></textarea>
                 <textarea name="Solutions" onChange={this.changeHandler} value={Solutions} placeholder="Quelle sera la Solution que vous proposez..." className="uk-margin uk-textarea"></textarea>
                 <textarea name="Comments" onChange={this.changeHandler} value={Comments} placeholder="Votre commentaire..." className="uk-margin uk-textarea"></textarea>
-                <input type="submit" onClick="validation()" className="uk-button uk-button-primary uk-light"/>
+                <input type="submit" className="uk-button uk-button-primary uk-light"/>
             </form>
         )
 
