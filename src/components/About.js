@@ -29,7 +29,7 @@ const About = () => {
                             </div>
                                 <div className="uk-card-body uk-light">
                                     <h3 style={{color:'white'}} className="uk-card-title">AIT BEN YISSA Hamza</h3>
-                                    <small><a className="log" href="https://www.linkedin.com/in/naoufal-alaa/"><i class="fab fa-linkedin"></i></a></small>
+                                    <small><a className="log" href="https://www.linkedin.com/in/hamzaaitbenyissa/"><i class="fab fa-linkedin"></i></a></small>
                                 </div>
                             </div>
                         </div>
